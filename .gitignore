@@ -134,3 +134,8 @@ dmypy.json
 # Data files
 *.pkl
 *.csv
+
+# Secrets
+.gitsecret/keys/random_seed
+!*.secret
+secrets/**
